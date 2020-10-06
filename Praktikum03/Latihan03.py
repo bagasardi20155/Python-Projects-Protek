@@ -32,12 +32,12 @@ time.sleep(3)
 if (usia > 50):
     print("Anda sudah cukup tua ya?")
     print("Jaga kesehatan ya!!")
-elif (usia > 20):
-    print("Ternyata Anda masih cukup muda belia")
-    print("Jangan sia-siakan masa mudamu ya!!")
-elif (usia > 17):
+elif (usia > 17 and usia <= 20):
     print("Hihihi... Anda ternyata masih ABG")
     print("Mulai berpikirlah secara dewasa ya!!")
+elif (usia > 20 and usia <= 50):
+    print("Ternyata Anda masih cukup muda belia")
+    print("Jangan sia-siakan masa mudamu ya!!")
 else:
     print("Oalah.. Anda masih anak-anak toh?")
     print("Jangan suka merengek-rengek minta jajan ya!!")
