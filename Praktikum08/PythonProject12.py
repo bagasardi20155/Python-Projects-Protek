@@ -28,7 +28,7 @@ def beliBuah(buahDict) :
                       
         else :
             try :
-                harga = jumlahBuah(namaBuah)
+                harga = jumlahBuah(buahDict,namaBuah)
                 total.append(harga)
                     
                 opsi = input("Beli buah yang lain (y/n) ? ").lower()
