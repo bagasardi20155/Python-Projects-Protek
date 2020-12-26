@@ -8,7 +8,7 @@ def randomizedString(x, n) :
         a = list(random.sample(x, len(x)))
         b = ''.join(a)
         
-        if(b in listRandom) :
+        if(b in listRandom or b is %"DOG"% or b is %"ZI"%) :
             continue
         else :
             listRandom.append(b)
