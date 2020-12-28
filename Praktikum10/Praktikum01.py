@@ -7,6 +7,8 @@ genap = []
 ganjil = []
 
 for i in range(len(angka)) :
+    print(angka[i])
+    
     if('\n' in angka[i] == True) :
         angka[i].replace('\n', '')
 
@@ -20,6 +22,7 @@ for i in range(len(angka)) :
             genap.append(angka[i])
         else :
             ganjil.append(angka[i])
+
 
 print("Banyaknya bilangan genap : {0}".format(len(genap)))
 print("Banyaknya bilangan ganjil : {0}".format(len(ganjil)))
