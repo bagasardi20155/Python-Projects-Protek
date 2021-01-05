@@ -14,7 +14,7 @@ file = open("dataKaryawan.dat", fileMode)
     
 def addKaryawan(nip, nama, alamat, gol, tgl_lahir, usia) :
 
-    listData = [nip, nama, alamat, gol, tgl_lahir, str(usia) + '\n']
+    listData = [nip, nama, alamat, gol.upper(), tgl_lahir, str(usia) + '\n']
     file.write('|'.join(listData))
 
 
