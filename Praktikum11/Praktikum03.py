@@ -25,7 +25,8 @@ if(status == 'ada') :
     print("Nama Member : ", splitted[1])
     print("Judul Buku : ", splitted[2])
     print("Tanggal Mulai Peminjaman : ", splitted[3])
-    print("Tanggal Pengembalian : ", splitted[4])
+    print("Tanggal Maks Peminjaman : ", splitted[4])
+    print("Tanggal Pengembalian : ", datetime.date(datetime.now()))
 
     terlambat = Praktikum01.diffDate(splitted[4])
     denda = 2000 * abs(terlambat)
