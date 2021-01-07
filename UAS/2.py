@@ -22,9 +22,8 @@ try :
             replaced = isiFile[i].replace('\n', '')
             splitted = replaced.split('|')
         
-            dataKaryawan[splitted[0]] = [splitted[1], splitted[2], splitted[3], splitted[4], splitted[5]]
+            dataKaryawan[kd_karyawan] = [splitted[1], splitted[2], splitted[3], splitted[4], splitted[5]]
 
-    print(dataKaryawan)
     gaji = getGapok(dataKaryawan[kd_karyawan][2])
     
     
